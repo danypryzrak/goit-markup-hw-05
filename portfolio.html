@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+    <!--Верхушка сайта-->
+    <header class="header">
+
+        <div class="container header-container">
+            <a class="site-logo" href="index.html"> <span class="logo-web">Web</span>Studio</a>
+
+            <!--Навигация на другие страницы-->
+            <nav>
+                <ul class="site-nav-list">
+                    <li class="site-nav-item"><a href="index.html" class="nav-link">Студія</a></li>
+                    <li class="site-nav-item"><a href="portfolio.html" class="nav-link current">Портфоліо</a></li>
+                    <li class="site-nav-item"><a href="/" class="nav-link">Контакти</a></li>
+
+                </ul>
+
+            </nav>
+
+            <!--Контакты-->
+            <ul class="site-contacts-list">
+                <li class="site-contacts-item">
+                    <a href="mailto:info@devstudio.com" class="contacts">
+                        <svg width="16" height="12">
+                            <use href="./image/icons.svg#envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class="site-contacts-item">
+
+                    <a href="tel:+380961111111" class="contacts">
+                        <svg width="16" height="12">
+                            <use href="./image/icons.svg#smartphone"></use>
+                        </svg>
+                        +38 096 11 11 11
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+
+    <!--Основная часть сайта-->
+    <main>
+
+        <section class="section">
+            <div class="container">
+                <!--Фильтры-->
+
+                <h1 class="visually-hidden">Проекты</h1>
+
+                <ul class="filter-list">
+                    <li class="filter-list-item"><button type="button" class="filter-list-button">Усі</button></li>
+                    <li class="filter-list-item"><button type="button" class="filter-list-button">Веб-сайти</button>
+                    </li>
+                    <li class="filter-list-item"><button type="button" class="filter-list-button">Додатки</button></li>
+                    <li class="filter-list-item"><button type="button" class="filter-list-button">Дизайн</button></li>
+                    <li class="filter-list-item"><button type="button" class="filter-list-button">Маркетинг</button>
+                    </li>
+                </ul>
+
+                <!--Проэкты-->
+
+                <ul class="projects-list">
+                    <li class="projects-list-item">
+                        <a href="" class="projects-list-link">
+                            <div class="overlay-box">
+                                <img src="image/imgsite.jpg" alt="Сайт" width="370" height="294">
+                                <div class="projects-overlay">
+                                    <p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
+                                        функціоналу та сервісів. Все це дозволить відвідувачу отримати
+                                        вичерпні відомості про компанію чи приватну особу.</p>
+                                </div>
+                            </div>
+
+                            <div class="projects-box">
+                                <h2 class="projects-list-tittle">Технокряк</h2>
+                                <p class="projects-list-text">Веб-сайт</p>
+                            </div>
+
+                        </a>
+                    </li>
+                    <li class="projects-list-item">
+                        <a href="" class="projects-list-link">
+                            <div class="overlay-box">
+                                <img src="image/imgposter.jpg" alt="Постер" width="370" height="294">
+                                <div class="projects-overlay">
+                                    <p class="overlay-text">Не знаю що сюди писати</p>
+                                </div>
+                            </div>
+                            <div class="projects-box">
+                                <h2 class="projects-list-tittle">Постер New Orlean vs Golden Star</h2>
+                                <p class="projects-list-text">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="projects-list-item">
+                        <a href="" class="projects-list-link">
+                            <div class="overlay-box">
+                                <img src="image/imgrestaurant.jpg" alt="Ресторан" width="370" height="294">
+                                <div class="projects-overlay">
+                                    <p class="overlay-text">Не знаю що сюди писати</p>
+                                </div>
+                            </div>
+                            <div class="projects-box">
+                                <h2 class="projects-list-tittle">Ресторан Seafood</h2>
+                                <p class="projects-list-text">Додаток</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="projects-list-item">
+                        <a href="" class="projects-list-link">
+                            <div class="overlay-box">
+                                <img src="image/imgheadphones.jpg" alt="Навушники" width="370" height="294">
+                                <div class="projects-overlay">
+                                    <p class="overlay-text">Не знаю що сюди писати</p>
+                                </div>
+                            </div>
+                            <div class="projects-box">
+                                <h2 class="projects-list-tittle">Проєкт Prime</h2>
+                                <p class="projects-list-text">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="projects-list-item">
+                        <a href="" class="projects-list-link">
+                            <div class="overlay-box">
+                                <img src="image/imgboxes.jpg" alt="коробки" width="370" height="294">
+                                <div class="projects-overlay">
+                                    <p class="overlay-text">Не знаю що сюди писати</p>
+                                </div>
+                            </div>
+                            <div class="projects-box">
+                                <h2 class="projects-list-tittle">Проєкт Boxes</h2>
+                                <p class="projects-list-text">Додаток</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="projects-list-item">
+                        <a href="" class="projects-list-link">
+                            <div class="overlay-box">
+                                <img src="image/imgmac.jpg" alt="Веб-сторінка" width="370" height="294">
+                                <div class="projects-overlay">
+                                    <p class="overlay-text">Не знаю що сюди писати</p>
+                                </div>
+                            </div>
+                            <div class="projects-box">
+                                <h2 class="projects-list-tittle">Inspiration has no Borders</h2>
+                                <p class="projects-list-text">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="projects-list-item">
+                        <a href="" class="projects-list-link">
+                            <div class="overlay-box">
+                                <img src="image/imgbook.jpg" alt="Книга" width="370" height="294">
+                                <div class="projects-overlay">
+                                    <p class="overlay-text">Не знаю що сюди писати</p>
+                                </div>
+                            </div>
+                            <div class="projects-box">
+
+                                <h2 class="projects-list-tittle">Видання Limited Edition</h2>
+                                <p class="projects-list-text">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="projects-list-item">
+
+                        <a href="" class="projects-list-link">
+                            <div class="overlay-box">
+                                <img src="image/imglab.jpg" alt="Бірка" width="370" height="294">
+                                <div class="projects-overlay">
+                                    <p class="overlay-text">Не знаю що сюди писати</p>
+                                </div>
+                            </div>
+                            <div class="projects-box">
+                                <h2 class="projects-list-tittle">Проєкт LAB</h2>
+                                <p class="projects-list-text">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="projects-list-item">
+                        <a href="" class="projects-list-link">
+                            <div class="overlay-box">
+                                <img src="image/imgbussines.jpg" alt="Веб-сторінка" width="370" height="294">
+                                <div class="projects-overlay">
+                                    <p class="overlay-text">Не знаю що сюди писати</p>
+                                </div>
+                            </div>
+
+                            <div class="projects-box">
+                                <h2 class="projects-list-tittle">Growing Business</h2>
+                                <p class="projects-list-text">Додаток</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <!--Попка сайта-->
+    <footer class="footer">
+
+        <div class="container footer-container">
+            <div class="footer-contacts-box">
+                <a class="footer-logo" href="index.html"> <span class="logo-web">Web</span>Studio</a>
+
+                <address class="address">
+                    <ul class="footer-list">
+                        <li class="footer-list-item">
+                            <a href="https://goo.gl/maps/LkYmeQknonZ3vXYK6" target="_blank" rel="noopener noreferrer"
+                                class="map">м.Київ,пр-т Лесі Українки, 26</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="mailto:info@devstudio.com" class="footer-contacts">info@devstudio.com</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="tel:+380961111111" class="footer-contacts">+38 096 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+
+            <div class="footer-social">
+                <p class="footer-social-tittle">приєднуйтесь</p>
+                <ul class="footer-social-list">
+                    <li>
+                        <a href="" class="footer-social-link">
+                            <svg width="20" height="20" class="footer-social-icon">
+                                <use href="./image/icons.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-social-link">
+                            <svg width="20" height="20" class="footer-social-icon">
+                                <use href="./image/icons.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-social-link">
+                            <svg width="20" height="20" class="footer-social-icon">
+                                <use href="./image/icons.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-social-link">
+                            <svg width="20" height="20" class="footer-social-icon">
+                                <use href="./image/icons.svg#linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
