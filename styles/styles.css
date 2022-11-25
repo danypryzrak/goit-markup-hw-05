@@ -619,6 +619,11 @@ background-color: var(--brand-color)
 }
 
 
+.subscribe-form{
+ display: flex;
+}
+
+
 .subscribe-input{
     width: 358px;
     height: 50px;
@@ -631,8 +636,10 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 
 .subscribe-button{
     display: inline-flex;
+    gap: 10px;
     
     justify-content: center;
+    align-items: center;
     padding: 0;
     width: 200px;
     height: 50px;
