@@ -607,6 +607,60 @@ background-color: var(--brand-color)
 }
 
 
+/* Footer Form */
+
+.footer-form{
+    margin-left: 93px;
+    
+}
+
+.subscribe-form-box{
+    margin-top: 20px;
+}
+
+
+.subscribe-input{
+    width: 358px;
+    height: 50px;
+    background-color: var(--dark-font);
+    color: var(--white);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.subscribe-button{
+    display: inline-flex;
+    
+    justify-content: center;
+    padding: 0;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto 0 12px;
+    background: var(--brand-color);
+    color: var(--white);
+    border: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+
+        font-weight: 700;
+            font-size: 16px;
+            line-height: calc(30/16);
+            letter-spacing: 0.06em;
+
+           
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus{
+    background: #188CE8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        cursor: pointer;
+        
+}
+
+
 /* !!Modal!! */
 
 .backdrop{
