@@ -147,21 +147,21 @@
                         <div class="mission-thumb">
                             <img class="mission-thumb-img" src="image/keyboard.jpg" alt="Десктопні додатки" width="370"
                                 height="294">
-                            <p class="mission-thumb-text">Десктопні додатки</p>
+                            <h3 class="mission-thumb-text">Десктопні додатки</h3>
                         </div>
                     </li>
                     <li class="mission-list-item">
                         <div class="mission-thumb">
                             <img class="mission-thumb-img" src="image/phone.jpg" alt="Мобілні додатки" width="370"
                                 height="294">
-                            <p class="mission-thumb-text">Мобілні додатки</p>
+                            <h3 class="mission-thumb-text">Мобілні додатки</h3>
                         </div>
                     </li>
                     <li class="mission-list-item">
                         <div class="mission-thumb">
                             <img class="mission-thumb-img" src="image/ipad.jpg" alt="Дизайнерські рішення" width="370"
                                 height="294">
-                            <p class="mission-thumb-text">Дизайнерські рішення</p>
+                            <h3 class="mission-thumb-text">Дизайнерські рішення</h3>
                         </div>
                     </li>
                 </ul>
@@ -439,11 +439,9 @@
             <div class="footer-form">
                 <p class="footer-social-tittle">Підпишіться на розсилку</p>
                 <div class="subscribe-form-box">
-                    <form class="subscribe-form" name="subscribe-form" autocomplete="on" novalidate>
-                        <label for="footer-mail"></label>
-                        <input class="subscribe-input" id="footer-mail" type="email" name="email" placeholder="E-mail"
-                            required>
-                        <button class="subscribe-button" type="submit"><span>Підписатися</span>
+                    <form class="subscribe-form" name="subscribe" autocomplete="on">
+                        <input class="subscribe-input" type="email" name="email" placeholder="E-mail" required>
+                        <button class="subscribe-button" type="submit">Підписатися
                             <svg width="24" height="24">
                                 <use href="./image/icons.svg#telegram"></use>
                             </svg>
@@ -465,6 +463,49 @@
             </button>
 
             <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+            <form class="recall-form" name="recall" autocomplete="on" novalidate>
+
+                <div class="recall-box">
+                    <label class="recall-label" for="name">Ім'я</label>
+                    <input class="recall-input" id="name" type="text" name="name">
+                    <svg class="icon-recall" width="18" height="18">
+                        <use href="./image/icons.svg#modal-person"></use>
+                    </svg>
+                </div>
+                <div class="recall-box">
+                    <label class="recall-label" for="recall-number">Телефон</label>
+                    <input class="recall-input" id="recall-number" type="tel" name="recall-number">
+                    <svg class="icon-recall" width="18" height="18">
+                        <use href="./image/icons.svg#modal-phone"></use>
+                    </svg>
+                </div>
+                <div class="recall-box">
+                    <label class="recall-label" for="recall-email">Пошта</label>
+                    <input class="recall-input" id="recall-email" type="email" name="recall-email">
+                    <svg class="icon-recall" width="18" height="18">
+                        <use href="./image/icons.svg#modal-envelope"></use>
+                    </svg>
+                </div>
+                <div class="recall-box">
+                    <label class="recall-label" for="comment">Коментар</label>
+                    <textarea class="recall-comment" name="comment" id="commment" cols="30" rows="8"
+                        placeholder="Введіть текст"></textarea>
+                </div>
+                <div class="recall-checkbox">
+                    <input class="checkbox-input visually-hidden" type="checkbox" name="checkbox" id="checkbox">
+                    <label class="checkbox-label" for="checkbox">
+                        <svg class="ok-icon" width="16" height="15">
+                            <use href=" ./image/icons.svg#checkbox-checked"></use>
+                        </svg>
+                        <span class="privacy-text">Погоджуюся з розсилкою та приймаю <a class="privacy-link"
+                                href="">Умови
+                                договору</a></span></label>
+                </div>
+                <div class="submit-button-box">
+                    <button class="modal-submit-button" type="submit">Відправити</button>
+
+                </div>
+            </form>
         </div>
     </div>
 
